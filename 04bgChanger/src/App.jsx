@@ -16,7 +16,9 @@ justify-center bottom-12 inset-x-0 px-2">
   rounded-3xl">
 
     <button 
-    onClick={()=>setcolor("green")} // onclick expect function not functio value
+    onClick={()=>setcolor("green")} // onclick expect function not function value
+                        // and we have to send parameters in that function that'swhy callback we have used
+  
     className="outline-none px-4 py-1
     rounded-full text-white shadow-lg"
     style={{backgroundColor:"green"}}>green

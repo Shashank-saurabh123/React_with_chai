@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-     <h1 className='bg-green-400 text-black-4
+     <h1 className='bg-green-400 text-black p-4
      rounded-xl mb-4'>Tailwind props</h1>
      <Card username="liya" btntxt="click me"/> 
 

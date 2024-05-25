@@ -26,7 +26,7 @@ const passwoordRef=useRef(null)
     for (let i = 1; i <= length; i++) {
       let char = Math.floor(Math.random() * str.length + 1)
       pass += str.charAt(char)
-    }
+     }
     setPassword(pass)
       
   }  ,[length,numberAllowed,charAllowed,setPassword]) // it is only for memoization purpose

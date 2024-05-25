@@ -32,11 +32,13 @@ const reactElement = React.createElement(
     'a',
     {href: 'https://google.com',target: '_blank' },
     'click me to visit google',
-    anotherElement
+      anotherUser // this is a variable, which is an evaluated expression
+         
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
  
-    reactElement
+    reactElement // this is not jsx,but at the end react convert all html or jsx 
+    //into this only ,it is done by babble ,so we can render this object also 
   
 )
